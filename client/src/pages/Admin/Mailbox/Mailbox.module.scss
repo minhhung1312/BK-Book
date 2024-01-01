@@ -1,0 +1,120 @@
+h1{
+    font-size: 22px;
+}
+.header{
+    padding: 20px;
+    margin: 0 0 10px;
+    background-color: white;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.mail{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.mail:hover {
+    cursor: pointer;
+    padding: 19px;
+    border: 1px solid #C00000;
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pages{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox-head{
+    display: flex;
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+    border-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-reload, .button-delete{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-reload, .icon-trashcan{
+    color: #808080;
+}
+
+.icon-back:hover, .icon-next:hover, .icon-reload:hover, .icon-trashcan:hover {
+    color: #C00000;
+}
+
+.button-back {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.button-next{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.pages-number, .icon-back, .icon-next{
+    color: #808080;
+}
+.checkbox-mail{
+    width: 4%;
+    display: flex;
+}
+.name{
+    width: 26%;
+}
+.title-content{
+    width: 55%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text-bold{
+    font-weight: bold;
+}
+.time{
+    width: 15%;
+    text-align: right;
+    color: #808080;
+}
+.content-mail{
+    color: #808080;
+}
+
+.checkbox-container{
+    display: flex;
+}
+
+

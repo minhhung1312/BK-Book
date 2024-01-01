@@ -1,0 +1,120 @@
+h1{
+    font-size: 22px;
+}
+.header{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #808080;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.content{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.footer{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.id-header{
+    width: 5%;
+}
+.name-header{
+    width: 90%;
+    padding: 0 12px;
+}
+
+.action-header{
+    width: 5%;
+}
+.id{
+    width: 5%;
+}
+.name{
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 12px;
+}
+.action{
+    width: 5%;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+.status-border{
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+.active {
+    background-color: #CFF6DD;
+    color: #1FA750;
+  }
+  
+  .unactive {
+    background-color: #D6D6D6;
+    color: #777777;
+  }
+  
+  .banned {
+    background-color: #FFA4A4;
+    color: #FF0000;
+  }
+.button-edit, .button-delete{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.icon-edit, .icon-delete{
+    color: #808080;
+}
+.direction{
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+}
+.pages-number{
+    color: #808080;
+}
+.button-back, .button-next{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.icon-back, .icon-next{
+    color: #808080;
+}
+
+.content:hover {
+    padding: 19px;
+    border: 1px solid #C00000;
+}
+
+.icon-back:hover,.icon-next:hover,.icon-edit:hover,.icon-delete:hover {
+    color: #C00000;
+}

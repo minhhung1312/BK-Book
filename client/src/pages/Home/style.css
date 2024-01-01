@@ -1,0 +1,34 @@
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.category-card {
+    border: none;
+    /* background-color: #F0F0F0; */
+} 
+
+.category-card:hover {
+    cursor: pointer;
+}
+
+.category-card:hover .card-text {
+    color: #C00000;
+}
+
+.category-card .card-img-top {
+    width: auto;
+    height:100%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%)
+}
+
+.category-card .card-body {
+    padding: 12px;
+}

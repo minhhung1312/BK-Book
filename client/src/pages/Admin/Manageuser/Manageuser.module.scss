@@ -1,0 +1,139 @@
+h1{
+    font-size: 22px;
+}
+.header{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #808080;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.content{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.footer{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.id-header{
+    width: 13%;
+}
+.username-header{
+    width: 29%;
+}
+.email-header{
+    width: 35%;
+}
+.status-header{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+}
+.action-header{
+    width: 5%;
+}
+.id{
+    width: 13%;
+}
+.username{
+    width: 29%;
+}
+.email{
+    width: 35%;
+}
+.status{
+    width: 18%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    width: 5%;
+}
+.action{
+    display: flex;
+    justify-content: center;
+}
+.status-border{
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.status-border:hover {
+    filter: brightness(90%);
+}
+.active {
+    background-color: #CFF6DD;
+    color: #1FA750;
+  }
+  
+  .unactive {
+    background-color: #D6D6D6;
+    color: #777777;
+  }
+  
+  .banned {
+    background-color: #FFA4A4;
+    color: #FF0000;
+  }
+.button-delete{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.icon-delete{
+    color: #808080;
+}
+.direction{
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+}
+.pages-number{
+    color: #808080;
+}
+.button-back, .button-next{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.icon-back, .icon-next{
+    color: #808080;
+}
+
+.content:hover {
+    padding: 19px;
+    border: 1px solid #C00000;
+}
+
+.icon-back:hover,.icon-next:hover,.icon-delete:hover {
+    color: #C00000;
+}

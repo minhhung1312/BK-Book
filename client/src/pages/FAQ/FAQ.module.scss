@@ -1,0 +1,52 @@
+.container {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  display: block;
+}
+
+.FAQ_grid {
+  display: block;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white_bg {
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.mb-10 {
+  margin-bottom: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.name_section {
+  font-size: 1.5rem;
+}

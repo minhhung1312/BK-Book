@@ -1,0 +1,183 @@
+.container {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+//Begin element css
+
+.flex {
+  display: flex;
+}
+
+.bg {
+  background-color: #F8F9FC;
+}
+
+.while_background {
+  background-color: white;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fs-36 {
+  font-size: 1.5rem;
+}
+
+.fs-40 {
+  font-size: 2rem;
+}
+
+.yellow-font {
+  color: #F7B32D;
+}
+
+.red-font {
+  color: #C00000;
+}
+
+//Done with element css
+
+.NewsGrid {
+  width: 100%;
+  padding: 40px;
+  background-color: white;
+}
+
+.Search_bar_section {
+  width: 25%;
+  padding-right: 1rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.News_content {
+  width: 100%;
+}
+
+.New_image {
+  width: 35%;
+  object-fit: contain;
+}
+
+.New_text {
+  padding: 1rem;
+}
+
+.New_time {
+  width: 30%;
+}
+
+.New_comment_count {
+  width: 50%;
+}
+
+.New_likes {
+  width: 30%;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.pagination-top {
+  margin-bottom: 1rem;
+}
+
+.pagination-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  column-gap: 0.5rem;
+}
+
+.previous, .next, .break, .page, .active {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.previous-link, .next-link, .break-link, .page-link, .active-link {
+  text-decoration: none;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+}
+
+.break-link, .page-link {
+  color: #c00000;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
+.active {
+  background-color: #c00000;
+}
+
+.active-link {
+  color: white;
+}
+
+.previous:hover, .next:hover {
+  background-color: #f0f0f0;
+}
+
+.page:hover, .break:hover {
+  background-color: #f0f0f0;
+}
+
+.break-link:hover, .page-link:hover {
+  color: #c00000;
+}
+
+.active-link:hover {
+  color: white;
+}
+
+.active:hover {
+  background-color: #c00000;
+}
+
+.pagination ol, .pagination ul {
+  padding: 0;
+  margin: 0;
+}
+
+.disabled-label, .disabled-label:hover, .disabled-link, .disabled-link:hover {
+  opacity: 0.5;
+  background-color: white;
+}
+
+.text-no-result {
+  text-align: center;
+  color: #C00000;
+  margin-left: 15rem;
+}

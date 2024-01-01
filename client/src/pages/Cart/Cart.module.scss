@@ -1,0 +1,163 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+}
+.info{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+}
+.address-price{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+.head{
+    height: 42px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+.book-info{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+.price-info{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+.button-buy{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.checkbox-head{
+    width:6%;
+    display: flex;
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
+}
+.count-book-head{
+    width: 46%;
+}
+.price-head{
+    width: 23%;
+}
+.count-head{
+    width: 25%;
+}
+
+.checkbox-info{
+    width:6%;
+    display: flex;
+}
+.book-detail{
+    width: 46%;
+    display: flex;
+    padding-right: 10px;
+}
+.price{
+    width: 23%;
+}
+.count{
+    width: 19%;
+}
+.button-delete{
+    width: 6%;
+}
+.book-image{
+    margin-right: 10px;
+}
+.last-price{
+    color: #c00000;
+}
+.initial-price{
+    color: #808080;
+    font-size: 14px;
+    text-decoration-line: line-through;
+}
+.button-delete{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.icon-trashcan{
+    color: #808080;
+}
+.count button{
+    border: none;
+    background-color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.price-info{
+    display: flex;
+    flex-direction: column;
+}
+.price-detail{
+    display: flex;
+    flex-direction: column;
+}
+.initial-total{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.line{
+    border-bottom: 1px solid #808080;
+    margin-bottom: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+}
+.final-price{
+    font-size: 20px;
+    color: #c00000;
+}
+.button-buy{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: #c00000;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.count input{
+    width: 1.5rem;
+    text-align: center;
+    border: none;
+}
+
+.text-no-result {
+    color: #c00000;
+    text-align: center;
+    margin-top: 2rem;
+}

@@ -1,0 +1,49 @@
+.max-line-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.max-line-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.link-abbr {
+    text-decoration: none;
+    color: black;
+}
+
+.link-abbr:hover {
+    color: black;
+}
+
+#book-category {
+    margin-top: 30px;
+    background-color: white;
+}
+
+.top-treding {
+    margin-top: 30px;
+    background-color: white;
+}
+
+
+.trending-desc {
+    text-align: justify;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.book-tag {
+    background-color: white;
+    color: #C00000;
+    font-weight: bold;
+    border: 2px solid #C00000;
+    padding: 4px 12px;
+}

@@ -1,0 +1,114 @@
+h1{
+    font-size: 22px;
+}
+.header{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #808080;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.content{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.content:hover {
+    padding: 19px;
+    border: 1px solid #C00000;
+}
+.footer{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.id-header{
+    width: 13%;
+}
+.name-header{
+    width: 48%;
+}
+.author-header{
+    width: 34%;
+}
+.action-header{
+    width: 5%;
+}
+.id{
+    width: 13%;
+}
+.name{
+    width: 48%;
+}
+.author{
+    width: 34%;
+}
+.action{
+    width: 5%;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+.status-border{
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+.active {
+    background-color: #CFF6DD;
+    color: #1FA750;
+  }
+  
+.banned {
+background-color: #FFA4A4;
+color: #FF0000;
+}
+
+.button-edit, .button-delete{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.icon-edit, .icon-delete{
+    color: #808080;
+}
+.direction{
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+}
+.pages-number{
+    color: #808080;
+}
+.button-back, .button-next{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.icon-back, .icon-next{
+    color: #808080;
+}
+
+.icon-back:hover,.icon-next:hover,.icon-edit:hover,.icon-delete:hover {
+    color: #C00000;
+}

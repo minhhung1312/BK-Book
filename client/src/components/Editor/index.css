@@ -1,0 +1,101 @@
+.ProseMirror {
+    padding: 10px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    min-height: 200px;
+  }
+
+.ProseMirror:focus {
+  outline: 0;
+}
+
+.ProseMirror > * + * {
+  margin-top: 0.75em;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  padding: 0 2rem;
+}
+
+.ProseMirror pre {
+  background: #0d0d0d;
+  color: #fff;
+  font-family: "JetBrainsMono", monospace;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.ProseMirror img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ProseMirror blockquote {
+  padding-left: 1rem;
+  border-left: 3px solid #999999;
+}
+
+.ProseMirror hr {
+  border: none;
+  border-top: 3px solid #999999;
+  margin: 2rem 0;
+}
+
+/* ............................ */
+.textEditor {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.menuBar {
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: black;
+}
+.menuBar button, .menuBar label {
+  font-size: 1.2rem;
+  margin: 4px;
+  padding: 0px 4px;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+}
+
+.menuBar input {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 4px;
+  padding: 4px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menuBar button:last-child {
+  margin-right: 8px;
+}
+
+.menuBar button:first-child {
+  margin-left: 8px;
+}
+
+.heading4 {
+  font-size: 0.9rem;
+}
+
+.heading5 {
+  font-size: 0.8rem;
+}
+
+.menuBar button.is_active {
+  background: rgb(151, 151, 151);
+  border-radius: 2px;
+}

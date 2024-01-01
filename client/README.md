@@ -1,0 +1,1 @@
+After cloning, run `cd client`, `npm i` and then `npm run dev`.

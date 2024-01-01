@@ -1,0 +1,14 @@
+.ProseMirror {
+  padding: 0;
+}
+
+.related-card .card-img-top {
+  height:100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-50%);
+}

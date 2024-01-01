@@ -1,0 +1,89 @@
+.container {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+.block {
+  display: block;
+}
+
+.location {
+  position: absolute;
+  width: 1120px;
+  height: 500px;
+}
+
+.content {
+  margin-top: 25rem;
+  width: 50%;
+  background-color: white;
+  position: relative;
+  padding: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mb-5 {
+  margin-bottom: 1rem;
+}
+
+.mb-15 {
+  margin-bottom: 2rem;
+}
+
+
+.title {
+  font-size: 1.5rem;
+}
+
+.white_background {
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.half_box {
+  width: 50%;
+  padding: 1rem;
+}
+
+.send_request {
+  font-size: 1.5rem;
+}
+
+.input {
+  width: 75%;
+  height: 1rem;
+  padding: 1rem;
+  border-radius: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #C00000;
+}
+
+.comment_box {
+  width: 88%;
+  border-radius: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #C00000;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.submit_button {
+  background-color: #C00000;
+  border-radius: 5px 5px 5px 5px;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  border-style: solid;
+  border-color: #C00000;
+  color: white;
+}

@@ -1,0 +1,22 @@
+.add-button p {
+  margin: 0;
+}
+
+.add-button {
+  display: flex;
+  padding: 2px 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+  height: 30px;
+  border: none;
+  background-color: #C00000;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #9f0101;    /* is this ok? */
+}

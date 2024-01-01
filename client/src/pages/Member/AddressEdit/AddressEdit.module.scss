@@ -1,0 +1,74 @@
+.address-edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+}
+.header{
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.content{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastname, .firstname, .phonenumber, .province, .district, .ward, .addr{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.5rem;
+}
+.field{
+    text-align: right;
+    width: 49%;
+}
+.info{
+    text-align: left;
+    width: 49%;
+}
+.info input, .info select{
+    height: 2rem;
+    width: 20rem;
+    align-items: center;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    padding-left: 5px;
+}
+.button{
+    padding-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    width: 14rem;
+}
+.button-cancel{
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #c00000;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+}
+.button-save {
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #F7B32D;
+    border: none;
+    color: white;
+    text-align: center;
+}
